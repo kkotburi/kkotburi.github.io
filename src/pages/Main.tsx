@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Main = () => {
-  return <div>Main</div>;
+  return (
+    <div>
+      <div>이혜영</div>
+    </div>
+  );
 };
 
 export default Main;
