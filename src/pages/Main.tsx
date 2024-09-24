@@ -4,6 +4,7 @@ const Main = () => {
   return (
     <div>
       <div>이혜영</div>
+      <div>Project</div>
     </div>
   );
 };
