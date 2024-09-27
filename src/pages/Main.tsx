@@ -5,6 +5,7 @@ const Main = () => {
     <div>
       <div>이혜영</div>
       <div>Frond-end Developer</div>
+      <div>꾸준히 자기 개발을 위해 1D1C(1 day 1 commit)을 실천하고 있습니다.</div>
       <div>Skill</div>
       <div>Project</div>
     </div>
