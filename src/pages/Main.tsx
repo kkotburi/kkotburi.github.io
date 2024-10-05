@@ -1,11 +1,13 @@
 import React from 'react';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 const Main = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div>
         <div>Home</div>
-        <div>Project</div>
+        <button onClick={() => navigate('/project')}>Project</button>
       </div>
       <div>Profile</div>
       <div>이혜영</div>
