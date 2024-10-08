@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Project = () => {
+  const navigate = useNavigate();
   return (
     <div>
+      <button onClick={() => navigate('/')}>Home</button>
       <div>Project</div>
       <div>편식</div>
       <div>편의점 음식을 조합하고 공유하는 커뮤니티</div>
