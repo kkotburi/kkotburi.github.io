@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Pyeonsik from '../components/Project.tsx/pyeonsik';
+import Pyeonsik from '../components/Project/Pyeonsik';
 
 const Project = () => {
   const navigate = useNavigate();
