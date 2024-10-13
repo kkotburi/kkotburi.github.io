@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div>
       <div>
-        <div>Home</div>
+        <button onClick={() => navigate('/')}>Home</button>
         <button onClick={() => navigate('/project')}>Project</button>
       </div>
       <div>Profile</div>
