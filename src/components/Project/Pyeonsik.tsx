@@ -8,6 +8,7 @@ const Pyeonsik = () => {
       <button onClick={() => window.open('https://pyeonsik.vercel.app')}>서버 주소</button>
       <div>TypeScript</div>
       <div>편의점 음식을 조합하고 공유하는 커뮤니티</div>
+      <div>구성 인원: 프론트엔드 5명, 디자이너 1명</div>
       <div>
         게시글 및 댓글 작성/수정/삭제, 좋아요, 북마크
         <br />
